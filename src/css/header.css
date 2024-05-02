@@ -1,21 +1,129 @@
 .header {
   padding: 20px 0;
+  border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+}
+
+.container {
+  max-width: 375px;
+  min-width: 320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  color: #0c0c0c;
+  margin-right: auto;
+}
+
+.nav {
+  margin-right: auto;
 }
 
 .nav-list {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  display: none;
   gap: 40px;
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+.nav-list .nav-item .current {
+  position: relative;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.nav-link {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #0c0c0c;
+  padding-bottom: 10px;
+}
+
+.current::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -1px;
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #404bbf;
+}
+
+.social-list {
+  display: none;
+  gap: 10px;
+}
+
+.social-icon {
+  width: 36px;
+  height: 36px;
+  border: 1px solid rgba(12, 12, 12, 0.1);
+  border-radius: 10px;
+  fill: #0c0c0c;
+  padding: 8px;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icon:hover {
+  fill: #3350e9;
+  border: 1px solid rgba(51, 80, 233, 0.1);
+}
+
+.mobile-menu {
+  width: 24px;
+  height: 16px;
+  border-left: none;
+  border-right: none;
+  border-top: 3px solid #0c0c0c;
+  border-bottom: 3px solid #0c0c0c;
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .header-logo {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .header-logo {
+    margin-right: 204px;
+  }
+
+  .nav-list {
+    display: flex;
+  }
+
+  .social-list {
+    display: flex;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
 }

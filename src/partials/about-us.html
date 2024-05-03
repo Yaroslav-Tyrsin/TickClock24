@@ -1,31 +1,53 @@
-<section>
-  <div class="first-section">
-    <h2 class="main-title">About Us</h2>
-    <p>
-      Welcome to our premium watch collection, where luxury and style meet
-      functionality and precision. Our selection of timepieces embodies the very
-      best in Swiss craftsmanship and engineering, ensuring that you'll always
-      have a reliable and stylish accessory on your wrist.
-    </p>
-    <p>
-      At our premium watch collection, we believe that a watch is more than just
-      a timekeeping device – it's a statement piece that reflects your
-      personality and style. So why settle for anything less than the best?
-    </p>
-    <button type="submit">View catalog</button>
-  </div>
-  <div>
-    <picture
-      ><source
-        srcset="
-          ../img/about-us-mobile-1x-min.jpg,
-          ../img/about-us-mobile-2x-min.jpg
-        "
-        media="(max-width: 767px)" />
-      <img
-        src="../img/about-us-mobile-1x-min.jpg"
-        alt="About us watch"
-        class="about-us-image"
-    /></picture>
+<!--About Us-->
+<section class="about-us">
+  <div class="container">
+    <div class="about-us-describe">
+      <h2 class="title-about-us">About Us</h2>
+
+      <p class="text-about-us">
+        Welcome to our premium watch collection, where luxury and style meet
+        functionality and precision. Our selection of timepieces embodies the
+        very best in Swiss craftsmanship and engineering, ensuring that you'll
+        always have a reliable and stylish accessory on your wrist.
+      </p>
+      <p class="text-about-us">
+        At our premium watch collection, we believe that a watch is more than
+        just a timekeeping device – it's a statement piece that reflects your
+        personality and style. So why settle for anything less than the best?
+      </p>
+
+      <button type="submit" class="btn-viev-catalog">View catalog</button>
+    </div>
+    <div class="about-us-picture">
+      <picture>
+        <source
+          srcset="
+            ./img/about-us-desktop-1x-min.jpg 1x,
+            ./img/about-us-desktop-2x-min.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ./img/about-us-tablet-1x-min.jpg 1x,
+            ./img/about-us-tablet-2x-min.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+
+        <source
+          srcset="
+            ./img/about-us-mobile-1x-min.jpg 1x,
+            ./img/about-us-mobile-2x-min.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          src="./img/about-us-mobile-1x-min.jpg"
+          alt="About us watch"
+          class="about-us-image"
+        />
+      </picture>
+    </div>
   </div>
 </section>

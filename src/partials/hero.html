@@ -1,21 +1,50 @@
-<section>
-    <div>
-      <h1 class="hero">Welcome to our <span class="span-hero">collection</span> of premium watches</h1>
-      <p>
-        Our watches are not just timepieces, but also an expression of your
-        personality and lifestyle. From classic designs to modern ones, we have
-        a watch to suit every taste and occasion.
-      </p>
+<section class="section-hero">
+  <div class="container">
+    <div class="container-hfoto">
+      <div class="container-h">
+        <h1 class="hero">
+          Welcome to our <span class="span-hero">collection</span> of premium
+          watches
+        </h1>
+        <p class="hero-p">
+          Our watches are not just timepieces, but also an expression of your
+          personality and lifestyle. From classic designs to modern ones, we
+          have a watch to suit every taste and occasion.
+        </p>
+      </div>
+      <div class="container-foto">
+        <img
+          class="img-heroface"
+          src="../img/team-1x-min.jpg"
+          alt="people which work here"
+          width="108"
+          height="44"
+        />
+        <a class="link-hero" href="#Footer">Scroll down</a>
+      </div>
     </div>
-    <div>
-      <img src="" alt="Foto blond woomen" width="44"/>
+    <picture>
+      <source
+        class="images-hero"
+        media="(mim-width: 320px)"
+        srcset="./img/hero-mobile-1x-min.jpg, ./img/hero-mobile-2x-min"
+      />
+      <source
+        class="images-hero"
+        media="(min-width: 768px)"
+        srcset="./img/hero-tablet-1x-min.jpg, ./img/hero-tablet-2x-min.jpg"
+      />
+      <source
+        class="images-hero"
+        media="(min-width: 1280px)"
+        srcset="../img/hero-desktop-1x-min.jpg, ../img/hero-desktop-2x-min.jpg"
+      />
       <img
-        src=""
-        alt="foto man in suit" width="44"
-      /><img src="" alt="Foto blond woomen" width="44"/><a
-        href="">Scroll down</a>
-    </div>
-    <img src="" alt="Big watch" width: 375;
-height: 366;/>
+        class="images-hero"
+        src="./img/hero-mobile-1x-min.jpg"
+        alt="foto black watch small"
+        width="335"
+      />
+    </picture>
   </div>
 </section>

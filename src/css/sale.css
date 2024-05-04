@@ -11,6 +11,7 @@ gap: 24px;
 }
 
 .sale-header {
+    font-family: "Gilroy", sans-serif;
 font-weight: 600;
 font-size: 32px;
 line-height: 1;
@@ -39,8 +40,8 @@ padding-bottom: 20px;
 display: flex;
 border: 1px solid rgba(12, 12, 12, 0.05);
 border-radius: 16px;
-width: 80px;
-height: 80px;
+width: 100%;
+height: 100%;
 background: #f3f3f3;
 justify-content: center;
 align-items: center;
@@ -56,8 +57,8 @@ padding: 50px;
 .sale-info-dashboard {
 background: #3350e9;
 border-radius: 30px;
-width: 335px;
-height: 561px;
+width: 100%;
+height: 100%;
 padding-top: 48px;
 padding-bottom: 48px;
 padding-left: 28px;
@@ -65,6 +66,7 @@ padding-right: 28px;
 }
 
 .sale-header-2 {
+    font-family: "Gilroy", sans-serif;
 font-weight: 600;
 font-size: 24px;
 line-height: 28px; 
@@ -74,6 +76,7 @@ padding-bottom: 10px;
 }
 
 .sale-header-text {
+    font-family: "Gilroy", sans-serif;
 font-weight: 400;
 font-size: 14px;
 line-height: 18px; 
@@ -82,6 +85,7 @@ color: rgba(251, 251, 251, 0.5);
 }
 
 .sale-btn {
+    font-family: "Gilroy", sans-serif;
 border: none;
 border-radius: 8px;
 width: 68px;
@@ -95,6 +99,7 @@ color: #fbfbfb;
 }
 
 .sale-old-price {
+    font-family: "Gilroy", sans-serif;
     width: 36px;
 font-weight: 400;
 font-size: 12px;
@@ -104,8 +109,12 @@ text-decoration: line-through;
 color: rgba(251, 251, 251, 0.5);
 }
 
+.sale-text-block {
+    padding-bottom: 28px;
+}
+
 .sale-text-info {
-    font-weight: 500;
+    font-family: "Gilroy", sans-serif;
     font-size: 14px;
     line-height: 18px; 
     letter-spacing: -0.02em;
@@ -114,8 +123,7 @@ color: rgba(251, 251, 251, 0.5);
 }
 
 .sale-list-categories {
-    padding-top: 28px;
-display: flex;
+    display: flex;
 flex-wrap: wrap;
 align-items: flex-start;
 justify-content: flex-start;
@@ -142,4 +150,131 @@ padding-bottom: 20px;
     align-items: center;
     gap: 9px;
     padding-bottom: 28px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .container {
+      width: 375px;
+    }
+    .sale-info-dashboard {
+        width: 335px;
+        height: 561px;
+    }
+    .sale-img-watches-list-item {
+        width: 80px;
+        height: 80px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .container {
+      min-width: 768px;
+    }
+    .sale {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 32px;
+        padding-right: 32px;
+        gap: 40px;
+    }
+    .sale-header {
+font-size: 48px;
+line-height: 44px;
+    }
+    .sale-img-watches {
+        display: flex;
+        flex-direction: row;
+    }
+    .sale-img-watches-list {
+        flex-direction: column;
+        gap: 10px;
+        padding-right: 20px;
+        padding-bottom: 0;
+    }
+    .sale-img-watches-list-item {
+        width: 132px;
+        height: 132px;
+        padding: 16px 18px;
+        border-radius: 20px;
+    }
+    .sale-img-watches-list-item-img {
+        width: 96px;
+         height: 100px;
+    }    
+    .sale-img-watches-big-img {
+        width: 328px;
+        height: 398px;
+    }
+    .sale-big-picture {
+        display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50px;
+width: 552px;
+height: 558px;
+    }
+    .sale-info-dashboard {
+        border-radius: 50px;
+width: 704px;
+height: 518px;
+padding: 60px;
+    }
+    .sale-header-2 {
+font-size: 32px;
+line-height: 36px; 
+letter-spacing: -0.02em;
+width: 436px;
+    }
+    .sale-prices {
+        padding-bottom: 30px;
+    }
+    .sale-text-info {
+font-size: 16px;
+line-height: 20px; 
+letter-spacing: -0.02em;
+width: 584px;
+height: 100px;
+    }
+    .sale-text-block {
+        padding-bottom: 40px;
+    }
+    .sale-list-categories {
+        width: 398px;
+    }
+    .sale-list-categories-item {
+font-size: 14px;
+line-height: 18px; 
+    }
+    
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+      min-width: 1280px;
+    }
+    .sale {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 65px;
+        padding-right: 65px;
+    }
+    .sale-content {
+        flex-direction: row;
+        gap: 40px;
+    }
+    .sale-big-picture{
+width: 428px;
+height: 558px;
+    }
+    .sale-info-dashboard {
+        width: 530px;
+        height: 558px;
+    }
+    .sale-header-2 {
+        width: 382px;
+    }
+    .sale-text-info {
+        width: 410px;
+        height: 140px;
+    }
 }

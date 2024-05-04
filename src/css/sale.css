@@ -153,9 +153,6 @@ padding-bottom: 20px;
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
-    .container {
-      width: 375px;
-    }
     .sale-info-dashboard {
         width: 335px;
         height: 561px;
@@ -167,9 +164,6 @@ padding-bottom: 20px;
   }
 
   @media screen and (min-width: 768px) {
-    .container {
-      min-width: 768px;
-    }
     .sale {
         padding-top: 40px;
         padding-bottom: 40px;
@@ -249,9 +243,6 @@ line-height: 18px;
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
-      min-width: 1280px;
-    }
     .sale {
         padding-top: 50px;
         padding-bottom: 50px;

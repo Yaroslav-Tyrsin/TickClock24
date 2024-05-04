@@ -98,6 +98,11 @@ letter-spacing: -0.02em;
 color: #fbfbfb;
 }
 
+.sale-btn:hover,
+.sale-btn:focus {
+    background: #1f3cd4;
+}
+
 .sale-old-price {
     font-family: "Gilroy", sans-serif;
     width: 36px;

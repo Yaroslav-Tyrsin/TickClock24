@@ -66,7 +66,7 @@
   stroke: var(--background);
 }
 
-.hero-img {
+.images-hero {
   border-radius: 30px;
   background: rgba(12, 12, 12, 0.2);
 }
@@ -106,9 +106,6 @@
     line-height: 125%;
     padding-bottom: 0;
   }
-  .hero-img {
-    border-radius: 50px;
-  }
   .link-hero {
     font-size: 20px;
     line-height: 100%;
@@ -116,6 +113,7 @@
   }
   .images-hero {
     width: 704px;
+    border-radius: 50px;
   }
 }
 
@@ -138,6 +136,9 @@
   }
   .images-hero {
     width: 1150px;
+  }
+  .img-heroface {
+    width: 146px;
   }
   .container-h {
     width: 597px;

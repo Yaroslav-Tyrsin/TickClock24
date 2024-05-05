@@ -47,6 +47,11 @@
   margin-left: auto;
 }
 
+.section-hero .link-hero {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
 .link-hero:hover {
   color: #3350e9;
 }

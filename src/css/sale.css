@@ -176,6 +176,9 @@ padding-bottom: 20px;
         padding-right: 32px;
         gap: 40px;
     }
+    .sale-content {
+        gap: 40px;
+    }
     .sale-header {
 font-size: 48px;
 line-height: 44px;
@@ -256,7 +259,6 @@ line-height: 18px;
     }
     .sale-content {
         flex-direction: row;
-        gap: 40px;
     }
     .sale-big-picture{
 width: 428px;

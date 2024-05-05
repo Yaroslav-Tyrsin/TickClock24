@@ -8,7 +8,7 @@
 }
 
 .container-h {
-  width: 335px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,6 +47,10 @@
   margin-left: auto;
 }
 
+.link-hero:hover {
+  color: #3350e9;
+}
+
 .container-foto {
   display: flex;
   flex-direction: row;
@@ -69,6 +73,18 @@
 .images-hero {
   border-radius: 30px;
   background: rgba(12, 12, 12, 0.2);
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .container {
+    width: 375px;
+  }
+  .container-hfoto {
+    width: 335px;
+  }
+  .container-h {
+    width: 335px;
+  }
 }
 
 @media screen and (min-width: 768px) {

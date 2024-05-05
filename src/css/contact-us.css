@@ -14,6 +14,7 @@
 .contactus-form {
   display: flex;
   width: 100%;
+  border-radius: 30px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
@@ -32,6 +33,7 @@
 
 .contactus-input {
   margin-bottom: 18px;
+  background-color: #f3f3f3;
   font-family: inherit;
   border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 12px;
@@ -55,6 +57,7 @@
 .contactus-comment {
   border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 12px;
+  background-color: #f3f3f3;
   padding: 12px 14px 12px 14px;
   width: 100%;
   height: 84px;

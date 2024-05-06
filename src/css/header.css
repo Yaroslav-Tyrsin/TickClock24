@@ -175,13 +175,13 @@
 
 @media screen and (min-width: 320px) {
   .mobile-modal {
-    background-image: url(' ../img/header-background-menu-mobile-1x.jpg');
+    background-image: url(../img/header-background-menu-mobile-1x.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .mobile-modal {
-      background-image: url(' ../img/header-background-menu-mobile-2x.jpg');
+      background-image: url(../img/header-background-menu-mobile-2x.jpg);
     }
   }
 }
@@ -190,13 +190,13 @@
 
 @media screen and (min-width: 768px) {
   .mobile-modal {
-    background-image: url(' ../img/header-background-menu-tablet-1x.jpg');
+    background-image: url(../img/header-background-menu-tablet-1x.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .mobile-modal {
-      background-image: url(' ../img/header-background-menu-tablet-2x.jpg');
+      background-image: url(../img/header-background-menu-tablet-2x.jpg);
     }
   }
 }

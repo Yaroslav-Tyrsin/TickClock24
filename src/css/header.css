@@ -134,6 +134,7 @@
   .mobile-menu {
     display: none;
   }
+
   .mobile-modal-overlay.is-open {
     display: none;
   }

@@ -4,7 +4,7 @@ display: flex;
     padding-bottom: 30px;
 }
 
-.container {
+.sale-container {
     min-width: 320px;
     width: 100%;
     padding: 0 20px;
@@ -154,7 +154,7 @@ padding-bottom: 20px;
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
-    .container {
+    .sale-container {
         width: 375px;
     }
     .sale-info-dashboard {
@@ -168,7 +168,7 @@ padding-bottom: 20px;
   }
 
   @media screen and (min-width: 768px) {
-    .container {
+    .sale-container {
         max-width: 768px;
         margin: 0 auto;
         padding: 0 32px;
@@ -253,7 +253,7 @@ line-height: 18px;
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
+    .sale-container {
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 65px;

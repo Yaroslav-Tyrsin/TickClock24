@@ -55,6 +55,7 @@
 
 .link-hero:hover {
   color: #3350e9;
+  background-color: transparent;
 }
 
 .container-foto {
@@ -146,7 +147,9 @@
     min-width: 1280px;
     padding: 80px 65px 0px 65px;
   }
-
+  .section-hero .container {
+    display: inline;
+  }
   .section-hero {
     display: flex;
     align-items: flex-start;
@@ -159,11 +162,9 @@
     font-size: 72px;
     line-height: 87%;
   }
-
-  .main-foto {
-  }
   .images-hero {
     width: 1150px;
+    display: flex;
   }
   .img-heroface {
     width: 146px;

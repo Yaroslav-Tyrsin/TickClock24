@@ -179,7 +179,7 @@
 @media screen and (min-width: 1280px) {
   .contactus-container {
     padding: 50px 65px;
-    margin: 0;
+    margin: 0 auto;
   }
   .contactus-parts {
     width: 1150px;

@@ -5,9 +5,10 @@
 
 /* footer */
 .footer {
+  display: block;
   width: 335px;
   height: 581px;
-  padding: 40px 28px 28px 28px;
+  padding: 30px 28px;
   gap: 10px;
   border-radius: 30px 30px 30px 30px;
   border: 1px 0px 0px 0px;
@@ -73,6 +74,9 @@
   text-align: center;
   padding-bottom: 80px;
 }
+.footer-txt-desktop {
+  display: none;
+}
 .footer-nav {
   display: flex;
   justify-content: space-between;
@@ -134,7 +138,8 @@
 
 @media screen and (min-width: 768px) {
   .footer {
-    width: 768px;
+    width: 704px;
+    padding: 40px 40px 28px 40px;
   }
   .footer-container {
     display: flex;
@@ -159,6 +164,24 @@
     color: #fbfbfb;
     width: 162px;
   }
+  .footer-txt {
+    width: 524px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    padding-left: 30px;
+    padding: 0;
+    margin: 0 50px 100px 50px;
+  }
+  .footer-txt-desktop {
+    display: none;
+  }
+  .footer-nav {
+    width: 624px;
+    padding-bottom: 20px;
+  }
   .horizontal-line {
     border: none;
     border: 1px solid #fbfbfb1a;
@@ -168,7 +191,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-top: 16px;
+    padding-top: 20px;
     width: 624px;
   }
 }
@@ -176,11 +199,13 @@
 @media screen and (min-width: 1280px) {
   .footer {
     width: 1280px;
+    height: auto;
+    padding: 40px 40px 28px 40px;
   }
   .footer-container {
     display: flex;
     align-items: flex-start;
-    width: 624px;
+    width: 1136px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -188,12 +213,31 @@
 
   .footer-list {
   }
-  .footer-layout-txt {
+  .footer-txt {
+    display: none;
+  }
+  .footer-txt-desktop {
+    display: flex;
+    width: 524px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    padding-left: 30px;
+    padding: 0;
+    margin: 0 50px 126px 50px;
+    color: #fbfbfb;
+  }
+  .footer-nav {
+    width: 1136px;
+    padding-bottom: 20px;
   }
   .horizontal-line {
     border: none;
     border: 1px solid #fbfbfb1a;
   }
   .footer-sok {
+    width: 1136px;
   }
 }

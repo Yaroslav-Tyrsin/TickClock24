@@ -109,7 +109,13 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    padding: 40px 32px;
+    padding: 0 32px;
+    margin: 0 auto;
+  }
+
+  .advertisement-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .advertisement {
@@ -140,7 +146,12 @@
 
 @media screen and (min-width: 1280px) {
   .container {
-    padding: 50px 65px;
+    padding: 0 65px;
+  }
+
+  .advertisement-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .advertisement {

@@ -10,8 +10,13 @@ flex-direction: column;
 gap: 24px;
 }
 
+.container {
+    width: 100%;
+    max-width: 375px;
+    min-width: 320px;
+}
+
 .sale-header {
-    font-family: "Gilroy", sans-serif;
 font-weight: 600;
 font-size: 32px;
 line-height: 1;
@@ -66,7 +71,6 @@ padding-right: 28px;
 }
 
 .sale-header-2 {
-    font-family: "Gilroy", sans-serif;
 font-weight: 600;
 font-size: 24px;
 line-height: 28px; 
@@ -76,7 +80,6 @@ padding-bottom: 10px;
 }
 
 .sale-header-text {
-    font-family: "Gilroy", sans-serif;
 font-weight: 400;
 font-size: 14px;
 line-height: 18px; 
@@ -85,7 +88,6 @@ color: rgba(251, 251, 251, 0.5);
 }
 
 .sale-btn {
-    font-family: "Gilroy", sans-serif;
 border: none;
 border-radius: 8px;
 width: 68px;
@@ -104,7 +106,6 @@ color: #fbfbfb;
 }
 
 .sale-old-price {
-    font-family: "Gilroy", sans-serif;
     width: 36px;
 font-weight: 400;
 font-size: 12px;
@@ -119,7 +120,6 @@ color: rgba(251, 251, 251, 0.5);
 }
 
 .sale-text-info {
-    font-family: "Gilroy", sans-serif;
     font-size: 14px;
     line-height: 18px; 
     letter-spacing: -0.02em;
@@ -158,6 +158,10 @@ padding-bottom: 20px;
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
+    .container {
+        margin: 0 auto;
+        width: 375px;
+    }
     .sale-info-dashboard {
         width: 335px;
         height: 561px;
@@ -169,6 +173,10 @@ padding-bottom: 20px;
   }
 
   @media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
     .sale {
         padding-top: 40px;
         padding-bottom: 40px;
@@ -251,6 +259,10 @@ line-height: 18px;
 }
 
 @media screen and (min-width: 1280px) {
+    .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    }
     .sale {
         padding-top: 50px;
         padding-bottom: 50px;

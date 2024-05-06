@@ -55,6 +55,7 @@
 }
 
 .contactus-comment {
+  resize: none;
   border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 12px;
   background-color: #f3f3f3;
@@ -109,7 +110,7 @@
   height: 100%;
   object-fit: cover;
 }
-/* =============================== MOB from 375👇 ================================= */
+
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .contactus-form {
     width: 335px;
@@ -124,7 +125,7 @@
     width: 335px;
   }
 }
-/* ==================================== TABLET 👇 ================================= */
+
 @media screen and (min-width: 768px) {
   .contactus-container {
     padding: 40px 32px;
@@ -175,7 +176,7 @@
     height: 556px;
   }
 }
-/* ==================================== DESKTOP 👇 ================================= */
+
 @media screen and (min-width: 1280px) {
   .contactus-container {
     padding: 50px 65px;

@@ -1,19 +1,14 @@
 .sale {
-padding-top: 30px;
-padding-left: 20px;
-padding-right: 20px;
-padding-bottom: 30px;
 display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: column;
-gap: 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.container {
-    width: 100%;
-    max-width: 375px;
+.sale-container {
     min-width: 320px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
 }
 
 .sale-header {
@@ -22,6 +17,7 @@ font-size: 32px;
 line-height: 1;
 letter-spacing: -0.02em;
 color: #0c0c0c;
+padding-bottom: 24px;
 }
 
 .sale-content {
@@ -98,6 +94,7 @@ font-size: 16px;
 line-height: 20px; 
 letter-spacing: -0.02em;
 color: #fbfbfb;
+cursor: pointer;
 }
 
 .sale-btn:hover,
@@ -158,8 +155,7 @@ padding-bottom: 20px;
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
-    .container {
-        margin: 0 auto;
+    .sale-container {
         width: 375px;
     }
     .sale-info-dashboard {
@@ -173,21 +169,20 @@ padding-bottom: 20px;
   }
 
   @media screen and (min-width: 768px) {
-    .container {
+    .sale-container {
         max-width: 768px;
         margin: 0 auto;
+        padding: 0 32px;
     }
     .sale {
         padding-top: 40px;
-        padding-bottom: 40px;
-        padding-left: 32px;
-        padding-right: 32px;
-        gap: 40px;
+    padding-bottom: 40px;
     }
     .sale-content {
         gap: 40px;
     }
     .sale-header {
+        padding-bottom: 40px;
 font-size: 48px;
 line-height: 44px;
     }
@@ -259,15 +254,14 @@ line-height: 18px;
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
+    .sale-container {
     max-width: 1280px;
     margin: 0 auto;
+    padding: 0 65px;
     }
     .sale {
         padding-top: 50px;
         padding-bottom: 50px;
-        padding-left: 65px;
-        padding-right: 65px;
     }
     .sale-content {
         flex-direction: row;

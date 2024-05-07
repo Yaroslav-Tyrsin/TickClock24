@@ -11,9 +11,10 @@
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('./fonts/Gilroy/Gilroy-Medium.woff2') format('woff2'),
+  src: url('./fonts/Gilroy/Gilroy-Medium.ttf') format('truetype'),
+    url('./fonts/Gilroy/Gilroy-Medium.woff2') format('woff2'),
     url('./fonts/Gilroy/Gilroy-Medium.woff') format('woff');
-  font-weight: 500;
+  font-weight: 500; /* Змінено на 500 для шрифту "Medium" */
   font-style: normal;
 }
 
@@ -21,7 +22,7 @@
   font-family: 'Gilroy';
   src: url('./fonts/Gilroy/Gilroy-Regular.woff2') format('woff2'),
     url('./fonts/Gilroy/Gilroy-Regular.woff') format('woff');
-  font-weight: 400;
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -37,22 +38,11 @@
   font-family: 'Gilroy';
   src: url('./fonts/Gilroy/Gilroy-Bold.woff2') format('woff2'),
     url('./fonts/Gilroy/Gilroy-Bold.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
+  font-weight: bold;
 }
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
+.content {
+  font-family: 'Gilroy', sans-serif;
+  color: #0c0c0c;
   font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
 }

@@ -120,6 +120,7 @@
   }
   .container-h {
     width: 557px;
+    align-items: flex-start;
   }
   .hero {
     font-size: 70px;
@@ -130,6 +131,7 @@
     font-size: 16px;
     line-height: 125%;
     padding-bottom: 0;
+    width: 480px;
   }
   .link-hero {
     font-size: 20px;

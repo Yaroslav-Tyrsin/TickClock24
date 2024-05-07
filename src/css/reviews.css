@@ -10,6 +10,11 @@
   margin: 0 auto;
 }
 
+.reviews {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .reviews-title {
   font-family: 'Gilroy', sans-serif;
   font-weight: 600;

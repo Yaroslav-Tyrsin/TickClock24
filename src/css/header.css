@@ -133,11 +133,20 @@
 
   .mobile-menu {
     display: none;
+    cursor: pointer;
   }
 
   .mobile-modal-overlay.is-open {
     display: none;
   }
+}
+
+.mobile-menu:focus,
+.mobile-menu:active,
+.mobile-menu:hover {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
 }
 
 /* mobile menu */
@@ -211,6 +220,13 @@
   border: none;
   display: flex;
   justify-content: right;
+  cursor: pointer;
+}
+
+.close-mobile-menu:focus,
+.close-mobile-menu:active {
+  background-color: transparent;
+  outline: none;
 }
 
 .close-mobile-menu-icon {

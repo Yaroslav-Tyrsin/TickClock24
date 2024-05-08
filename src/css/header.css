@@ -244,6 +244,12 @@
   gap: 24px;
 }
 
+.nav-link-mobile-menu:focus,
+.nav-link-mobile-menu:active {
+  background-color: transparent;
+  outline: none;
+}
+
 .nav-link-mobile-menu {
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
